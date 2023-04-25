@@ -38,13 +38,11 @@
     align-items: center;
 }
 .button-container {
-    display: flex;
-    justify-content:baseline;
-
+    position: relative;
+    text-align: left;
 }
-    
-button{
-    
+
+button {
     display: block;
     margin: 50px auto;
     padding: 15px 30px;
@@ -55,7 +53,8 @@ button{
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+}
+
   
 button:hover {
     background-color: #3e8e41;
