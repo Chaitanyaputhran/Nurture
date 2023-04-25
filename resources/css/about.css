@@ -7,18 +7,18 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", "Gill Sans", "Gill Sans MT", Calibri,
-        "Trebuchet MS", sans-serif;
-   
-    
+        "Trebuchet MS", sans-serif;       
 }
 
 .styling {
     position: absolute;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../img/p1.jpg"); 
+    background-image: url("resources/IMAGES/w1.jpg"); 
     background-repeat:no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .absolute {
@@ -114,12 +114,11 @@ html {
 }
 
 .wrapper .face.face2 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url("../img/p1.jpg") no-repeat right bottom;
-    background-size: contain;
+    width: 1000px;
+    height: 500px;
+    background: url("../img/w1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .face.face1 h1 span,

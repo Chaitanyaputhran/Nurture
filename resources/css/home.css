@@ -40,12 +40,19 @@
     background: url("../img/p1.jpg");
     background-position: center;
     background-size: cover;
+    font-style: inherit;
+    font-size: 30px;
+    color: indigo;
 }
 
-.content-for-home .img-container .h1 {
-    color: blue;
+.content-for-home .img-container .logo {
+    width: 50px;
+    height: 50px;
+    background: url("../img/pregnency women2.jpg");
+    background-position: top;
+    background-position: center;
+    background-size: cover;
 }
-
 
 .content-for-home .img-container img {
     object-fit: cover;
