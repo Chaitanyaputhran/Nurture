@@ -88,13 +88,50 @@ button:hover {
 .content-for-home .img-container .h2{
     color:aquamarine;
 }
+.content-for-home .social-icons {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
 
+.content-for-home .social-icons .s-icon {
+    position: relative;
+    margin: 10px 25px;
+}
 
+.content-for-home .social-icons .s-icon a {
+    color: #606d79;
+    text-decoration: none;
+    transition: 0.5s;
+}
 
+.content-for-home .social-icons .s-icon a i {
+    font-size: 35px;
+}
 
+.content-for-home .social-icons .s-icon .s-name {
+    position: absolute;
+    font-size: 15px;
+    opacity: 0;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: 0.3s ease-out;
+}
 
+.content-for-home .social-icons .s-icon:hover .s-name {
+    opacity: 1;
+    bottom: -25px;
+}
 
-
+.content-for-home .social-icons .s-icon:hover a {
+    color: dodgerblue;
+}
 
 .side-nav {
     position: absolute;
@@ -173,6 +210,143 @@ button:hover {
 
 .side-nav button:hover::after {
     clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+}
+
+@media (max-width: 768px) {
+    .canvas_container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 491px) {
+    .side-nav {
+        position: relative;
+        text-align: center;
+        top: inherit;
+        bottom: 0;
+        right: inherit;
+        margin-top: 100px;
+    }
+
+    .side-nav button {
+        display: inline-block;
+    }
+
+    .side-nav button::before,
+    .side-nav button::after {
+        transform: rotate(-90deg);
+    }
+
+    .side-nav button .tooltip {
+        display: none;
+    }
+}
+
+@media (max-width: 306px) {
+    .content-for-home .img-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .side-nav {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content-for-home .img-container {
+        width: 50px;
+        height: 50px;
+        background: url("../img/pregnency women2.jpg") no-repeat top left;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+.side-nav {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translateY(-50%);
+    margin: 10px 25px;
+}
+
+.side-nav button {
+    position: relative;
+    display: block;
+    border: none;
+    color:white;
+    font-weight: bolder;
+    margin: 10px 0;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.side-nav button:hover .w {
+    font-size: 0px;
+}
+
+.side-nav button .w {
+    transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    font-size: 30px;
+}
+
+.side-nav button .tooltip {
+    position: absolute;
+    font-size: 3em;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    width: 100vw;
+    opacity: 0;
+    color: blue;
+    text-align: right;
+    visibility: hidden;
+    border-radius: 500px;
+    z-index: -1;
+    text-transform: capitalize;
+    transition: 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.side-nav button:hover .tooltip {
+    left: 0%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.side-nav button::before,
+.side-nav button::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:pink;
+    z-index: -1;
+    transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.side-nav button::before {
+    clip-path:circle(0 27%, 50% 0, 50% 100%, 0 73%);
+}
+
+.side-nav button::after {
+    clip-path: circle(0 27%, 50% 0, 50% 100%, 0 73%);
+}
+
+.side-nav button:hover::after {
+    clip-path: circle(0 0, 50% 0, 50% 100%, 0% 100%);
 }
 
 @media (max-width: 768px) {
