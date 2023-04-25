@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -139,5 +138,5 @@ auc_score1 = roc_auc_score(Y_test, RF_prob,multi_class='ovr')
 print(auc_score1)
 
 with open('model.pkl', 'wb') as file:
-    pickle.dump(copy_of_rf_prediction.py, file)
+    pickle.dump(model, file)
 
