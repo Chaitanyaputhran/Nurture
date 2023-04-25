@@ -2,39 +2,38 @@
 <html>
 <head>
 	<title>Maternal Health Risk Predictor</title>
+	<link rel="stylesheet" href="homesyle.css">
 </head>
 <body>
-	<h1>Maternal Health Risk Predictor</h1>
-	<p>Please enter your health parameters to predict your risk level:</p>
+	<h1><center>Maternal Health Risk Predictor</center></h1>
 
-	<form action="/predict" method="POST">
-		<label for="age">Age:</label><br>
-		<input type="number" id="age" name="age"><br>
+	<p ><center>Please enter your health parameters to predict your risk level:</center></p>
 
-		<label for="systolic_bp">Systolic Blood Pressure:</label><br>
-		<input type="number" id="systolic_bp" name="systolic_bp"><br>
 
-		<label for="diastolic_bp">Diastolic Blood Pressure:</label><br>
-		<input type="number" id="diastolic_bp" name="diastolic_bp"><br>
+	<div class="box">
+		<form action="/predict" method="POST">
+			<label for="age" style="display: inline-block;">Age:</label>
+			<input type="number" id="age" name="age" style="display: inline-block; margin-left: 10px;">
 
-		
-		<label for="glucose">Glucose:</label><br>
-		<input type="number" id="glucose" name="glucose"><br>
+			<label for="systolic_bp" style="display: inline-block; margin-left: 10px;">Systolic Blood Pressure:</label>
+			<input type="number" id="systolic_bp" name="systolic_bp" style="display: inline-block; margin-left: 10px;">
 
-		<label for="body_temp">Body temperature:</label><br>
-		<input type="number" id="body_temp" name="body_temp"><br>
+			<label for="diastolic_bp" style="display: inline-block; margin-left: 10px;">Diastolic Blood Pressure:</label>
+			<input type="number" id="diastolic_bp" name="diastolic_bp" style="display: inline-block; margin-left: 10px;"><br>
 
-		<label for="heart_rate">Heart Rate:</label><br>
-		<input type="number" id="heart_rate" name="heart_rate"><br>
+			<label for="glucose" style="display: inline-block;">Glucose:</label>
+			<input type="number" id="glucose" name="glucose" style="display: inline-block; margin-left: 10px;">
 
-		
+			<label for="body_temp" style="display: inline-block; margin-left: 10px;">Body temperature:</label>
+			<input type="number" id="body_temp" name="body_temp" style="display: inline-block; margin-left: 10px;">
 
-		<input type="submit" value="Submit">
-	</form>
+			<label for="heart_rate" style="display: inline-block; margin-left: 10px;">Heart Rate:</label>
+			<input type="number" id="heart_rate" name="heart_rate" style="display: inline-block; margin-left: 10px;"><br>
 
-	{% if result %}
-		<p>Your risk level is {{ result }}.</p>
-	{% endif %}
+			<input type="submit" value="Submit" style="margin-top: 10px;">
+		</form>
+	</div>
 </body>
 </html>
+
 
