@@ -85,9 +85,24 @@ button:hover {
 .content-for-home .img-container img {
     object-fit: cover;
 }
-.content-for-home .img-container .h2{
-    color:aquamarine;
-}
+.content-for-home .img-container .button {
+    background-color: #442bd4; /* Green */
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+ .content-for-home .img-container .button:hover {
+    background-color: #3e8e41; /* Dark green */
+  }
+  
+
 .content-for-home .social-icons {
     position: relative;
     width: 100%;
