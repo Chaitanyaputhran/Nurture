@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+   
+        background-image: url('../resources/wom.jpg');
+        background-size: cover;
+        background-position:right;
+        background-attachment: fixed;
+       
+      }
+       
+h1{
+    color:brown;
+   
+}
+p{
+    font-size:10px;
+}
+
+form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label[for="age"] {
+    font-size: 25px;
+    color:brown;
+    font-weight: 100;
+    
+    
+  }
+label[for="systolic_bp"] {
+    font-size: 25px;
+    color:brown;
+    
+  }
+label[for="diastolic_bp"] {
+    font-size: 25px;
+    color:brown;
+    
+  }
+label[for="glucose"] {
+    font-size: 25px;
+    color:brown;
+    
+  }
+label[for="body_temp"] {
+    font-size: 25px;
+    color:brown;
+   
+  }
+label[for="heart_rate"] {
+    font-size: 25px;
+    color:brown;
+    
+  }
+
+
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+   
+  }
+  input[type="submit"] {
+    width: 150px;
+    height: 27px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(176, 127, 221);
+  }
+
+
