@@ -294,12 +294,15 @@
 
 .t_dummy {
     display: inline-block;
+    font-size: 45px;
+    color: blue;
 }
 
 .t-box {
     position: relative;
     width: 450px;
-    font-size: 60px;
+    font-size: 40px;
+    color: whitesmoke;
     height: 50px;
     line-height: 70px;
     display: inline-block;

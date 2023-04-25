@@ -38,24 +38,6 @@ html {
     animation: rotate 5s linear 0s infinite forwards;
 }
 
-
-
-.dots {
-    top: 18%;
-    left: 57%;
-    width: 50px;
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.dots .dot {
-    background: #f0ce35;
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-}
-
 .wave {
     bottom: 0;
     left: 0;
@@ -118,13 +100,17 @@ html {
 }
 
 .face.face1 h1 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 4.5vw;
+    font-family: "Kaushan Script";
+    font-style: normal;
+    color: #267ff4;
+    font-size: 3.0vw;
 }
 
 .face.face1 p {
-    font-family: "League Script", cursive;
-    font-size: 22px;
+    font-family: "League Script";
+    font-style: normal;
+    color: blue;
+    font-size: 20px;
 }
 
 .wrapper .face.face2 {
@@ -153,16 +139,6 @@ html {
     font-weight: bold;
     outline: none;
     width: 35%;
-}
-
-.button.download {
-    background: url("../img/btn4.png") no-repeat 50% 50%;
-    background-size: 100% 100%;
-}
-
-.button.hire {
-    background: url("../img/btn3.png") no-repeat 50% 50%;
-    background-size: 100% 110%;
 }
 
 .about_nav {
@@ -284,7 +260,7 @@ html {
     transform: translate(0%, -50%);
     height: 10px;
     width: 90%;
-    background: white;
+    background: black;
     border-radius: 100px;
 }
 

@@ -9,7 +9,7 @@ body {
     --width: calc(100vw - 250px);
     font-family: "Montserrat", "Gill Sans", "Gill Sans MT", Calibri,
         "Trebuchet MS", sans-serif;
-    color: white;
+    color: black;
 }
 
 ::selection {
@@ -163,9 +163,9 @@ a {
     right: 0;
 }
 
-.navigation .end p{
+.navigation .end p {
     
-    color:rgb(249, 241, 249);
+    color:rgb(236, 226, 236);
     align-items: center;
     background-color: rgb(216, 71, 216);
 }

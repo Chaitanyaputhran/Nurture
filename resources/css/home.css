@@ -42,6 +42,11 @@
     background-size: cover;
 }
 
+.content-for-home .img-container .h1 {
+    color: blue;
+}
+
+
 .content-for-home .img-container img {
     object-fit: cover;
 }
