@@ -3,7 +3,7 @@ html {
 }
 body {
    
-        background-image: url('../resources/wom.jpg');
+        background-image: url('../resources/wom1.jpg');
         background-size: cover;
         background-position:right;
         background-attachment: fixed;
@@ -14,10 +14,6 @@ h1{
     color:brown;
    
 }
-p{
-    font-size:10px;
-}
-
 form {
     position: relative;
     display: flex;
@@ -26,57 +22,55 @@ form {
     flex-direction: column;
 }
 label[for="age"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
     font-weight: 100;
-    
-    
-  }
+}
 label[for="systolic_bp"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
     
   }
 label[for="diastolic_bp"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
     
   }
 label[for="glucose"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
     
   }
 label[for="body_temp"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
    
   }
 label[for="heart_rate"] {
-    font-size: 25px;
-    color:brown;
+    font-size: 23px;
+    color:white;
     
   }
 
 
 input[type="number"] {
     width: 200px;
-    height: 30px;
+    height: 28px;
     padding: 10px;
     font-size: 26px;
     margin-bottom: 20px;
     border-radius: 20px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid brown;
    
   }
   input[type="submit"] {
     width: 150px;
     height: 27px;
     font-size: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    background-color: rgb(176, 127, 221);
+    margin-bottom: 18px;
+    border-radius: 18px;
+    background-color: rgb(242, 6, 187);
   }
 
 
