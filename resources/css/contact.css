@@ -1,10 +1,7 @@
 .layer6 {
-    background: url("../img/p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-blend-mode: difference;
-    filter: invert(1);
 }
 
 .layer6 .contact_us {
@@ -31,9 +28,9 @@
     padding: 10px;
     transform-style: preserve-3d;
     perspective: 1000px;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 0 15px 35px green;
     margin: 10px 0;
 }
 
@@ -57,7 +54,7 @@
     height: 40px;
     transform: translateZ(10px);
     line-height: 40px;
-    background: linear-gradient(0deg, #c017bb, #e5242a);
+    background: linear-gradient(0deg, green, blue);
     transition: 0.4s;
 }
 
@@ -117,9 +114,9 @@ form .inp_field {
     align-items: center;
     flex-direction: row;
     margin: 10px 0;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 0 15px 35px green;
 }
 
 form .inp_field input {
@@ -150,9 +147,9 @@ form .inp_field input {
     font-size: 18px;
     font-family: "Montserrat";
     background: transparent;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 0 15px 35px green;
     color: #adadad;
     font-weight: 500;
     resize: vertical;
@@ -165,12 +162,12 @@ form .inp_field input {
     margin: 30px 0;
     outline: none;
     border: none;
-    background: rgba(0, 0, 0, 0.329);
+    background: darkgreen;
     text-decoration: none;
-    color: #ddd;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 0 15px 35px green;
     border-radius: 100px;
     overflow: hidden;
     cursor: pointer;
@@ -188,8 +185,8 @@ form .inp_field input {
     left: 50%;
     transform: translate(-50%, 0%);
     width: 30px;
-    height: 40px;
-    background: lime;
+    height: 30px;
+    background: green;
     /* background: #b2302c; */
     filter: blur(10px);
     z-index: -1;
@@ -203,18 +200,20 @@ form .inp_field input {
     left: 0;
     width: 30px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.199);
+    background: green;
     transform: skew(45deg) translate(-20px, 0);
     transition: 0.5s;
 }
 
 .submit:hover::after {
     transform: skew(45deg) translate(200px, 0);
+    color: green;
 }
 
 .submit:hover::before {
     height: 80%;
     bottom: 0;
+    color: green;
     width: 80%;
     border-radius: 30px;
     transition-delay: 0.25s;
