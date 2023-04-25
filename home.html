@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maternal Health Risk Predictor</title>
+</head>
+<body>
+	<h1>Maternal Health Risk Predictor</h1>
+	<p>Please enter your health parameters to predict your risk level:</p>
+
+	<form action="/predict" method="POST">
+		<label for="age">Age:</label><br>
+		<input type="number" id="age" name="age"><br>
+
+		<label for="systolic_bp">Systolic Blood Pressure:</label><br>
+		<input type="number" id="systolic_bp" name="systolic_bp"><br>
+
+		<label for="diastolic_bp">Diastolic Blood Pressure:</label><br>
+		<input type="number" id="diastolic_bp" name="diastolic_bp"><br>
+
+		<label for="bmi">BMI:</label><br>
+		<input type="number" id="bmi" name="bmi"><br>
+
+		<label for="heart_rate">Heart Rate:</label><br>
+		<input type="number" id="heart_rate" name="heart_rate"><br>
+
+		<label for="glucose">Glucose:</label><br>
+		<input type="number" id="glucose" name="glucose"><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
