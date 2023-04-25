@@ -299,7 +299,7 @@ html {
     position: relative;
     width: 70%;
     height: 250px;
-    color: #ccc;
+    color: yellowgreen;
     border-radius: 15px;
     padding: 15px;
     box-shadow: inset 5px 5px 10px black, inset -3px -3px 5px #ffffff25;
@@ -353,6 +353,7 @@ html {
 /* MAIN CONTENT OF EDUCATION */
 .cover:nth-child(even) {
     text-align: right;
+    color: yellowgreen;
 }
 
 .date {
@@ -363,12 +364,14 @@ html {
 .name_company {
     display: inline-block;
     margin-bottom: 10px;
+    color: black;
 }
 
 .text_hidden {
     width: 100%;
     height: 100px;
     overflow: auto;
+    color: blue;
 }
 .text_hidden::-webkit-scrollbar {
     width: 5px;
