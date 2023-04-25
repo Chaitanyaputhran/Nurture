@@ -3,7 +3,7 @@ html {
 }
 body {
    
-        background-image: url('../resources/wom1.jpg');
+        background-image: url('wom1.jpg');
         background-size: cover;
         background-position:right;
         background-attachment: fixed;

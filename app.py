@@ -4,6 +4,7 @@ import numpy as np
 from flask import Flask, render_template
 
 app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, static_folder='static')
 
 
 
@@ -16,7 +17,7 @@ except EOFError:
 
 
 # Create a Flask app
-app = Flask(__name__)
+
 
 # Define the home page route
 @app.route('/')
