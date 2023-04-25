@@ -59,7 +59,7 @@ a {
     line-height: 40px;
     border-radius: 0 0 10px 10px;
     background: #a640f5;
-    color: blue;
+    color: black;
     z-index: -1;
     transition: 0.5s 0s ease-in-out;
 }
