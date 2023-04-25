@@ -17,16 +17,24 @@
 		<label for="diastolic_bp">Diastolic Blood Pressure:</label><br>
 		<input type="number" id="diastolic_bp" name="diastolic_bp"><br>
 
-		<label for="bmi">BMI:</label><br>
-		<input type="number" id="bmi" name="bmi"><br>
+		
+		<label for="glucose">Glucose:</label><br>
+		<input type="number" id="glucose" name="glucose"><br>
+
+		<label for="body_temp">Body temperature:</label><br>
+		<input type="number" id="body_temp" name="body_temp"><br>
 
 		<label for="heart_rate">Heart Rate:</label><br>
 		<input type="number" id="heart_rate" name="heart_rate"><br>
 
-		<label for="glucose">Glucose:</label><br>
-		<input type="number" id="glucose" name="glucose"><br>
+		
 
 		<input type="submit" value="Submit">
 	</form>
+
+	{% if result %}
+		<p>Your risk level is {{ result }}.</p>
+	{% endif %}
 </body>
 </html>
+

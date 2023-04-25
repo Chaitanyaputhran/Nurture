@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maternal Health Risk Predictor</title>
+    <title>Maternal Health Risk Predictor</title>
 </head>
 <body>
-	<h1>Maternal Health Risk Predictor</h1>
-	<h2>Predict the risk level based on health parameters</h2>
-	<form action="/predict" method="post">
-		<label for="age">Age:</label>
-		<input type="number" id="age" name="age" required><br><br>
-		<label for="systolicBP">Systolic Blood Pressure:</label>
-		<input type="number" id="systolicBP" name="systolicBP" required><br><br>
-		<label for="diastolicBP">Diastolic Blood Pressure:</label>
-		<input type="number" id="diastolicBP" name="diastolicBP" required><br><br>
-		<label for="BMI">BMI:</label>
-		<input type="number" id="BMI" name="BMI" step="0.01" required><br><br>
-		<label for="heartRate">Heart Rate:</label>
-		<input type="number" id="heartRate" name="heartRate" required><br><br>
-		<input type="submit" value="Submit">
-	</form>
+    <h1>Maternal Health Risk Predictor</h1>
+    <h2>Predict the risk level based on health parameters</h2>
+    
+    <h3>Prediction Result:</h3>
+    <p>{{ prediction_text }}</p>
+    
+    <a href="/">Go back to home page</a>
 </body>
 </html>
+
+
