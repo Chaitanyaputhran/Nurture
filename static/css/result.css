@@ -20,16 +20,19 @@ h1{
 
 h2{
     text-align: center;
+    color: blue;
     font-size: 40px;
 }
 h3 {
-  text-align: center;
-    font-size: 30px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
 
 }
 h4{
-  text-align: center;
-    font-size: 45px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 35px;
 }
 
 button{
@@ -38,7 +41,7 @@ button{
         margin: 50px auto;
         padding: 15px 30px;
         font-size: 18px;
-        background-color:pink;
+        background-color:lightcoral;
         color: #fff;
         border: none;
         border-radius: 4px;
