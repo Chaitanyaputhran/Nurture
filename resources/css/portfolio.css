@@ -77,9 +77,10 @@ a {
     position: absolute;
     bottom: 25%;
     z-index: -1;
-    color: #f64253;
+    color: indigo;
     text-decoration: none;
     font-weight: bold;
+    font-size: 12px;
 }
 
 .tip {
