@@ -7,7 +7,9 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", "Gill Sans", "Gill Sans MT", Calibri,
-        "Trebuchet MS", sans-serif;       
+        "Trebuchet MS", sans-serif;  
+    display: flex;
+    flex-wrap:wrap;     
 }
 
 .styling {

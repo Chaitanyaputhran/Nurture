@@ -45,6 +45,7 @@ def predict():
     # Return the predicted risk level to the user
     return render_template('result.html', prediction_text='The predicted risk level is {}'.format(prediction[0]))
 
+
 if __name__ == '__main__':
     app.run(debug=True)
 
