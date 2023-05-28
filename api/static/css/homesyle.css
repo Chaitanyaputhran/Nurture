@@ -72,5 +72,16 @@ input[type="number"] {
     border-radius: 18px;
     background-color: rgb(242, 6, 187);
   }
+  .back button{
+    width: 100px;
+    height: 27px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background-color: rgb(41, 6, 242);
+  }
+  .back{
+    
+  }
 
 
