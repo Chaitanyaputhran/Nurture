@@ -25,5 +25,5 @@ Credits:
 This Website was developed by-
     -Sharon Tyana Menezes
     -Shane Priyanka Rodrigues
-    -Chaithanya 
+    -Chaitanya 
 as a final project for the HackToFuture 24hr Hackathon conducted by St Joseph Engineering College, Vamanjoor in collaboration with EG.
